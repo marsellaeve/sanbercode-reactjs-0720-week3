@@ -19,6 +19,8 @@ class DaftarHargaBuah extends React.Component{
                     table{
                         border: 1px solid black;
                         width: 700px;
+                        margin-left: auto;
+                        margin-right: auto;
                     }
                     th {
                         background-color: #aaaaaa;
