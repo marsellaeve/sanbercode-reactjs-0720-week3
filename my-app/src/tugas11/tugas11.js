@@ -6,7 +6,7 @@ let dataHargaBuah = [
     {nama: "Jeruk", harga: 30000, berat: 1000},
     {nama: "Mangga", harga: 30000, berat: 500}
 ]
-class DaftarHargaBuah extends React.Component{
+class DaftarHargaBuah1 extends React.Component{
     render(){
         return(
             <div>
@@ -53,4 +53,4 @@ class DaftarHargaBuah extends React.Component{
         )
     }
 }
-export default DaftarHargaBuah;
+export default DaftarHargaBuah1;

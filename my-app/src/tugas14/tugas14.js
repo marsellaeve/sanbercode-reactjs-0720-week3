@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-const DaftarHargaBuah =()=>{
+const DaftarHargaBuah3 =()=>{
     const[dataHargaBuah,setDataHargaBuah] = useState(null)
     const[inputNama,setInputNama]=useState("")
     const[inputHarga,setInputHarga]=useState("")
@@ -138,4 +138,4 @@ const DaftarHargaBuah =()=>{
         </div>
     )
 }
-export default DaftarHargaBuah;
+export default DaftarHargaBuah3;

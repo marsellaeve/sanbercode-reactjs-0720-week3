@@ -1,13 +1,14 @@
 import React from 'react';
-import DaftarHargaBuah from './tugas14/tugas14.js';
-import Timer from './tugas12/tugas12.js';
+import {BrowserRouter as Router} from "react-router-dom";
+import Routes from "./tugas15/Routes";
 import './App.css';
 
 function App() {
   return (
     <div>
-      <DaftarHargaBuah />
-      <Timer/>
+      <Router>
+        <Routes/>
+      </Router>
     </div>
   );
 }

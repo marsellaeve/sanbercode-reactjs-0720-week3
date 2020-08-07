@@ -1,5 +1,5 @@
 import React from 'react';
-class DaftarHargaBuah extends React.Component{
+class DaftarHargaBuah2 extends React.Component{
     constructor(props){
         super(props)
         this.state={
@@ -145,4 +145,4 @@ class DaftarHargaBuah extends React.Component{
         )
     }
 }
-export default DaftarHargaBuah;
+export default DaftarHargaBuah2;
